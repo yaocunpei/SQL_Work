@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body, .Background_box {
+  height:100%;
+}
+body{
+	background: url('../img/bj2.jpg') no-repeat ;
+	background-size: 100%;
+} 
+.Background_box{
+	width: 550px;
+	height: 330px;
+	background-color: #ffffff90;
+	position: absolute;
+	top: 180px;
+	left: 455px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 3px 4px #00000045;
+}
+.Background_box h1{
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 30px;
+}
+.login{
+	margin-top: 30px;
+	text-align: center;
+}
+table{
+	color: #3b3b3b;
+	/* border: 1px solid #4a4a4a; */
+	font-size: 18px;
+	letter-spacing:2.5px;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	margin-left: 85px;	
+	border-radius: 3px;
+	height: 30px;
+	border-radius: 3px;
+	max-width: 1000px;
+}
+td{
+	text-align: left;
+	padding: 5px 2px 3px 4px;
+	max-width: 1000px;
+}
+input{
+	background-color: #ffffff90;
+	border: 1px solid #4a4a4a;
+	font-size: 18px;
+	letter-spacing:2.5px;
+	margin-top: 5px;
+	padding-left: 7px;
+	border-radius: 3px;
+	height: 30px;
+}
+button{
+	margin-top: 10px;
+	font-size: 18px;
+	height: 35px;
+	width: 130px;
+	border-radius: 10px;
+	background-color: #ffffff90;
+	border: 2px solid #909090;
+}
+button:hover{
+	background-color: #a6ffd7;
+}
+
+.top_box{
+	position: absolute;
+	bottom: 10px;
+    width: 100%;
+}
+.top_box a{
+	text-decoration:none;
+	color: #000;
+	
+}
+.a1{
+	margin-left: 60px;
+	float: left;
+}
+.a2{
+	margin-right: 50px;
+	float: right;
+}
+a:hover{
+	color: #a6ffd7;
+}
+
+.siginb{
+	/* float: left; */
+}
+.siginb form{
+	display:inline-block
+}
+
+.sgint td{
+	padding: 0;
+}

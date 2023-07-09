@@ -1,0 +1,229 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../img/bj2.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.head {
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.head .logo {
+	float: left;
+	margin: 8px 15px;
+}
+
+.img_logo {
+	height: 45px;
+	width: 220px;
+}
+
+.head .user {
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin: 15px 15px;
+
+}
+
+.head .tuichu {
+	height: 60px;
+	float: right;
+	margin-right: 50px;
+}
+
+.head .yonghu {
+	line-height: 60px;
+	color: #ffffff;
+	height: 60px;
+	float: right;
+	margin-right: 35px;
+	font-size: 22px;
+}
+
+.head a {
+	line-height: 60px;
+	height: 60px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.head a:hover {
+	color: gray;
+	color: #a6ffd7;
+}
+
+.table_box {
+	height: 530px;
+	width: 900px;
+	margin: 60px auto 0;
+	background-color: #ffffff80;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-left {
+	width: 200px;
+	height: 438px;
+	float: left;
+	border-right: 4px solid #989797d0;
+	background-color: #ffffffa0;
+	border-radius: 10px 0 0 10px;
+}
+.nav-left a{
+	border: 0;
+	width: 100%;
+	font-size: 20px;
+	line-height: 65px;
+	background-color:#ffffffc8;
+	color: #5e5e5e;	
+}
+.nav-left ul li {
+	height: 65px;
+	width: 100%;
+	list-style: none;
+	border-bottom: 2px solid #989797d0;
+	text-align: center;
+}
+
+.nav-left ul .li1 {
+	text-align: center;
+	font: 700 30px 'microsoft yahei';
+	font-family: 'Courier New', Courier, monospace;
+	padding: 48px 0;
+	height: 34px;
+	width: 100%;
+	list-style: none;
+	border-bottom: 4px solid #989797d0;
+}
+
+
+.nav-left ul li a {
+	line-height: 65px;
+	height: 65px;
+	display: block;
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+}
+
+.nav-left ul li a:hover {
+	background-color: #aaaaaa;
+	color: #ffffff;
+}
+
+.nav-body {
+	float: right;
+	width: 696px;
+	height: 440px;
+	overflow-y:auto;
+}
+
+
+
+.he{
+	display: none;	
+}
+
+.topclick {
+    height: 60px;
+    width: 100px;
+	margin-right: 20px;
+	float: right;
+    position:relative;
+    display:inline-block;
+}
+
+.ltbox1 {
+    width: 100px;
+    height: 60px;
+	/* margin-right: 20px; */
+    /* background-color: chartreuse; */
+	/* color: gray; */
+	color: #ffffff;
+    text-align: center;
+    line-height: 81px;
+    cursor: pointer;        /*鼠标指针经过*/
+}
+
+.ltbox2{
+    width: 100px;
+    height: 100px;
+    /* margin-top: 0px; */
+    border-radius: 10px;
+    background-color: white;
+    position:absolute;
+    display: none;        /*使下拉菜单栏消失*/
+}
+ 
+.li1{
+    margin-top: 10px;
+}
+/* .head a {
+	line-height: 60px;
+	height: 60px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 22px;
+} */
+
+
+.topclick a{
+	height: 40px;
+	width: 100px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	display: block;
+	font-size: 14px;
+}
+.ltbox2 li{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    display: block; 
+	font-size: 22px;/*使下拉菜单栏显示*/
+}
+.ltbox2 a:hover{
+    background-color:#E8E8E8;
+	color: #000;
+}
+ 
+.topclick:hover .ltbox2{
+    display: block;
+}
+
+.th1 {
+	background-color: #ffffffa0;;
+	color: #4a4a4a;
+	text-align: center;
+	/* margin-top: 30px; */
+	height: 90px;
+	line-height: 90px;
+	display: block;
+	border-bottom: solid 2px #9f9f9f;
+}
+
+textarea{
+	background-color: #ffffff90;
+	border: 1px solid #4a4a4a;
+	font-size: 18px;
+	letter-spacing:2.5px;
+	margin-top: 5px;
+	padding-left: 7px;
+	border-radius: 3px;
+	/* height: 30px; */
+}
+
+form{
+	display: inline;
+}
